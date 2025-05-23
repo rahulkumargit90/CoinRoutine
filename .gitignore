@@ -1,0 +1,54 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Gradle
+.gradle/
+build/
+**/build/
+# Local configuration
+local.properties
+*.iml
+# Android Studio
+.idea/
+*.iws
+*.ipr
+*.hprof
+# Kotlin
+*.class
+*.kt~
+# Generated files
+captures/
+output.json
+# Mac OS
+.DS_Store
+# Log/Temporary files
+*.log
+*.tmp
+*.temp
+# Jetpack Compose
+.compose-cache/
+compose-metrics/
+compose-reports/
+# KMM (if any remnants left)
+.kmm/
+# Room schema output
+schemas/
+# Misc
+*.orig
+
